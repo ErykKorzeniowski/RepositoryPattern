@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using RepositoryPattern.Model;
+
 
 namespace RepositoryPattern.Data
 {
@@ -14,6 +14,6 @@ namespace RepositoryPattern.Data
         {
         }
 
-        public DbSet<RepositoryPattern.Model.People> People { get; set; } = default!;
+        public DbSet<RepositoryPattern.Entities.People> People { get; set; } = default!;
     }
 }

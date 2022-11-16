@@ -15,4 +15,9 @@
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="7.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\RepositoryPattern.Data\RepositoryPattern.Data.csproj" />
+    <ProjectReference Include="..\RepositoryPattern.Domain\RepositoryPattern.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

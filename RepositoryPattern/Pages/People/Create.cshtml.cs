@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using RepositoryPattern.Data;
-using RepositoryPattern.Model;
+using RepositoryPattern.Entities;
 
 namespace RepositoryPattern
 {
