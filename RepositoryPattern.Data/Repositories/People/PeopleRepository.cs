@@ -1,0 +1,16 @@
+﻿using RepositoryPattern.Domain.Entities;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace RepositoryPattern.Data.Repositories.People
+{
+    public class PeopleRepository : BaseRepository<PeopleEntity>, IPeopleRepository
+    {
+        public PeopleRepository(RepositoryPatternContext dbContext) : base(dbContext)
+        {
+        }
+    } 
+}

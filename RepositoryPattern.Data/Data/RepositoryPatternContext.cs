@@ -14,6 +14,6 @@ namespace RepositoryPattern.Data
         {
         }
 
-        public DbSet<RepositoryPattern.Entities.People> People { get; set; } = default!;
+        public DbSet<Domain.Entities.PeopleEntity> People { get; set; } = default!;
     }
 }
